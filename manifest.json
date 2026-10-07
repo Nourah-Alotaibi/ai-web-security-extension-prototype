@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AI Web Security Scanner",
+  "version": "1.0",
+  "description": "Scans web pages using AI, SecurityHeaders, ZAP, and Shodan.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "popup.js"
+  }
+}
